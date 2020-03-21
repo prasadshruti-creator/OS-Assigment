@@ -1,8 +1,19 @@
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
-int main()
+void *getInput()
 {
+for(i=0;i<3;i++){
 printf("enter the no of process");
+scanf("%d",&n);
 printf("enter the burst time");
+scanf("%d",&t);
 printf("enter the priority");
+scanf("%d",&p);
+}
+}
+void main()
+{
+getInput();
+
+}
